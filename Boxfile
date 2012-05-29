@@ -3,7 +3,7 @@ web1: #component type & number
   document_root: /app/webroot
   shared_writable_dirs:
     - app/tmp
-    - tmp/cache
+    - app/tmp/cache
   php_extensions:
     - mcrypt
     - mysqli
