@@ -64,6 +64,7 @@ define("DB_PASS", $_SERVER['DB1_PASS']);
 class DATABASE_CONFIG {
 
   public $default = array(
+    'datasource' => 'Database/Mysql',
     'driver' => 'mysqli',
     'persistent' => false,
     'host' => DB_HOST,

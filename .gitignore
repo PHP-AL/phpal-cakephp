@@ -1,5 +1,4 @@
-/tmp
-/app/tmp
+/app/tmp/*
 /lib/Cake/Console/Templates/skel/tmp/
 /build
 /dist
