@@ -1,0 +1,17 @@
+web1: #component type & number
+  name: phpal-cakephp #component settings
+  document_root: /app/webroot
+  shared_writable_dirs:
+    - app/tmp
+    - tmp
+    - tmp/cache
+  php_extensions:
+    - mcrypt
+    - mysqli
+    - mbstring
+    - pdo_mysql
+    - apc
+
+db1:
+  name: app
+  type: mysql
