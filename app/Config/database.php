@@ -69,8 +69,8 @@ class DATABASE_CONFIG {
     'persistent' => false,
     'host' => DB_HOST,
     'login' => DB_USER,
-    'password' => DB_USER,
-    'database' => DB_PASS,
+    'password' => DB_PASS,
+    'database' => DB_NAME,
     'prefix' => '',
     'encoding' => 'utf8',
   );
